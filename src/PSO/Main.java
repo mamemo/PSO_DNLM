@@ -70,7 +70,9 @@ public class Main {
 		int individuos = 10;
 		individuos = Integer.parseInt(args[0]);
 		settings.setNum_individuals(individuos);
-		settings.setNum_iterations(50);
+		int iteraciones = 25;
+		iteraciones = Integer.parseInt(args[1]);
+		settings.setNum_iterations(iteraciones);
 		settings.setC_Personal(2);
 		settings.setC_Global(2);
 		settings.setInertia_min(0.4);
