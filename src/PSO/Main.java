@@ -35,7 +35,7 @@ public class Main {
 
 		String absdir = "";
 		if (!System.getProperty("os.name").toLowerCase().contains("windows")) {
-			absdir = "/home/jdnlm/DnlmTests/PSO_DNLM/";
+			absdir = "/home/mdnlm/DnlmTests/PSO_DNLM/";
 		}
 		
 		String dirOriginal = absdir+"src/PSO/utilities/images/original/";
